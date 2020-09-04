@@ -31,6 +31,8 @@ If your looking for the command itself, Navigate trough `commands/setprefix.js` 
 
 You can also clone this repository if you want and just replace the token in index.js
 
+The system for the arg also is included inside of the message event in Index.js
+
 ## 🐛 You found a issue or a Bug?
 No worries! You can just create a pull request or a new issue as you can see on the top of the reposetory!
 
