@@ -35,6 +35,8 @@ If your looking for the command itself, Navigate trough `commands/setprefix.js` 
 
 - make sure the message event have the similer idea like mine, or you wil get some prefix errors :/
 
+- MAKE SURE TO Set the mongodb url in index.js 
+
 ## 🐛 You found a issue or a Bug?
 No worries! You can just create a pull request or a new issue as you can see on the top of the reposetory!
 
