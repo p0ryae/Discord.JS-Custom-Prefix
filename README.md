@@ -8,6 +8,7 @@
 </div>
 
 
+
 # Discord.JS Custom Prefix!
 Set a Custom Prefix Command for your Discord.JS bot Using MongoDB Database!
 
@@ -22,13 +23,18 @@ npm i mongoose
 ```
 
 ## 📗 How to use?
-This reposetry is fully developed and Includes a whole discord bot!
+This reposetory is fully developed and Includes a whole discord bot!
 
 If your looking for the command itself, Navigate trough `commands/setprefix.js` and then get the code included inside of the `module.exports.run` & do the same thing for the models folder but this time, navigate trough `models/prefix.js`!
 
-> make sure to know how to connect to the database or at least have some basic understanding of MongoDB. Make sure to have the model also
+> Make sure to know how to connect to the database or at least have some basic understanding of MongoDBplus make sure to have the model
 
-You can also clone this reposetory if you want and just replace the token in index.js
+You can also clone this repository if you want and just replace the token in index.js
+
+## 🐛 You found a issue or a Bug?
+No worries! You can just create a pull request or a new issue as you can see on the top of the reposetory!
+
+You can also join into our [Support Discord Server](https://discord.gg/2RPg23k) if you need help with coding this or coding discord bots in general
 
 
 
