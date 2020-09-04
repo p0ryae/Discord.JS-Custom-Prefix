@@ -11,6 +11,16 @@
 # Discord.JS Custom Prefix!
 Set a Custom Prefix Command for your Discord.JS bot Using MongoDB Database!
 
+## 📕 Requirements
+- Basic understanding of how database works
+
+- Installing a NPM package called mongoose 
+
+> To install it, you just have to simply do:
+```js
+npm i mongoose
+```
+
 ## 📗 How to use?
 This reposetry is fully developed and Includes a whole discord bot!
 
