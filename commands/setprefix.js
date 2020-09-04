@@ -1,4 +1,3 @@
-const Discord = require('discord.js');
 const prefixModel = require("../models/prefix")
 
 module.exports.run = async (bot, message, args) => {
@@ -22,7 +21,7 @@ module.exports.run = async (bot, message, args) => {
         await prefixModel.findOneAndRemove({
             GuildID: message.guild.id
         })
-        
+
         message.channel.send(`The new prefix is now **\`${args[0]}\`**`);
 
         let newData = new prefixModel({
