@@ -29,9 +29,11 @@ If your looking for the command itself, Navigate trough `commands/setprefix.js` 
 
 > Make sure to know how to connect to the database or at least have some basic understanding of MongoDBplus make sure to have the model
 
-You can also clone this repository if you want and just replace the token in index.js
+- You can also clone this repository if you want and just replace the token in index.js
 
-The system for the arg also is included inside of the message event in Index.js
+- The system for the arg also is included inside of the message event in Index.js
+
+- make sure the message event have the similer idea like mine, or you wil get some prefix errors :/
 
 ## 🐛 You found a issue or a Bug?
 No worries! You can just create a pull request or a new issue as you can see on the top of the reposetory!
