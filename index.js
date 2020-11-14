@@ -7,7 +7,7 @@ const {
 } = require('./utils/loadCommands');
 const mongoose = require('mongoose');
 //Make sure to require this model in your message event or index.js if you use message event on there. in this case im going to require it here
-const prefix = require('../models/prefix');
+const prefix = require('./models/prefix');
 
 mongoose.connect('MONGODB_URL', {
     useNewUrlParser: true,
