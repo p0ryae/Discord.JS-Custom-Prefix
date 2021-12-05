@@ -1,6 +1,10 @@
 const prefixModel = require("../models/prefix")
 
 module.exports.run = async (bot, message, args) => {
+    if (!message.member.permissions.has('MANAGE_MESSAGES')) {
+        return message.channel.send("You are not allowed to change the bot's prefix!");
+    }
+
     const data = await prefixModel.findOne({
         GuildID: message.guild.id
     });
