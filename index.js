@@ -38,6 +38,7 @@ client.on('message', async (message) => {
 
         if (!message.content.startsWith(prefix)) return;
         const commandfile = client.commands.get(cmd.slice(prefix.length)) || bot.commands.get(bot.aliases.get(cmd.slice(prefix.length)));
+        if (!commandfile) return;
         commandfile.run(client, message, args);
     } else if (!data) {
         //set the default prefix here
@@ -45,6 +46,7 @@ client.on('message', async (message) => {
         
         if (!message.content.startsWith(prefix)) return;
         const commandfile = client.commands.get(cmd.slice(prefix.length)) || bot.commands.get(bot.aliases.get(cmd.slice(prefix.length)));
+        if (!commandfile) return;
         commandfile.run(client, message, args);
     }
 })
