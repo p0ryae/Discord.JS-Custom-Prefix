@@ -16,6 +16,7 @@ Set a **Custom Prefix** System for your **Discord.JS** bot Using **MongoDB Datab
 
 ## 📕 Requirements
 
+- DISCORD.JS v13
 - Basic understanding of how databases works
 - Installing an NPM package called mongoose 
 
