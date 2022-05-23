@@ -1,4 +1,4 @@
-# Discord.JS Custom Prefix!
+# Discord.JS Custom Prefix
 
 Set a **Custom Prefix** System for your **Discord.JS** bot Using **MongoDB Database**!
 
@@ -41,17 +41,4 @@ If you're looking for the command itself, Navigate through `commands/setprefix.j
 ## 🐛 You found an issue or a Bug?
 
 No worries! You can just create a pull request or a new issue as you can see on the top of the repository!
-
-
-
 You can also join our [Support Discord Server](https://dashcruft.com/discord) if you need help with coding this or coding Discord bots in general
-
-<div align="center">
-  <a href="https://dashcruft.com/discord">
-    <img src="https://user-images.githubusercontent.com/59381835/92191514-d649ad80-ee18-11ea-9bc4-e95c7a122a99.png" alt="Discord" width="80"/>
-  </a>
-  <a href="https://youtube.com/dashcruft">
-    <img src="https://user-images.githubusercontent.com/59381835/92191346-676c5480-ee18-11ea-8240-e416eb1a5b5d.png" alt="Discord" width="80"/>
-  </a>
-</div>
-
