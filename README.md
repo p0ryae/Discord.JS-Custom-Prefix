@@ -1,5 +1,3 @@
-# Discord.JS Custom Prefix
-
 Set a **Custom Prefix** System for your **Discord.JS** bot Using **MongoDB Database**!
 
 
